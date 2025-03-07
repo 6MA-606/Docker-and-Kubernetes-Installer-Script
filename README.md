@@ -53,13 +53,13 @@ If you don't want to clone the repository, you can directly download and run the
 #### Default mode (silent output) 🤫
 
 ```bash
-curl -sSL https://gist.githubusercontent.com/6MA-606/339ec3809a1914ea709a982aa0a0d35e/raw/137d8c6e995246cb192ae390a6e48334bf71600f/install-docker-k8s.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/6MA-606/Docker-and-Kubernetes-Installer-Script/refs/heads/main/initial-docker-k8s.sh | sudo bash
 ```
 
 #### Verbose mode (shows detailed output) 🔍
 
 ```bash
-curl -sSL https://gist.githubusercontent.com/6MA-606/339ec3809a1914ea709a982aa0a0d35e/raw/137d8c6e995246cb192ae390a6e48334bf71600f/install-docker-k8s.sh | sudo bash -s -- -v
+curl -sSL https://raw.githubusercontent.com/6MA-606/Docker-and-Kubernetes-Installer-Script/refs/heads/main/initial-docker-k8s.sh | sudo bash -s -- -v
 ```
 
 ### Explanation of Modes:
